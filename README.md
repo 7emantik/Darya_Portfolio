@@ -11,6 +11,8 @@ Created a tool that predicts whether a file is malicious based on a list of stat
 * Created a prediction of the file's malignancy based on the imported libraries (1 — if the file is malicious, 0 - otherwise) (prediction.txt)
 * Created an explanation file, where for each line of the test sample file contains the reason why the model considered files malicious (the lines for non-malicious files remain empty) (explain.txt)
 
+I tried four different classifiers and evaluated them using F-score, PR-curve and ROC-curve on the validation set.
+
 * **SGD Classifier**: F-score = 0.909
 * **Logistic Regression**: F-score = 0.914
 * **K-Neighbors Classifier**: F-score = 0.924
